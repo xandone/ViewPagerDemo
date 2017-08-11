@@ -18,8 +18,17 @@
         </activity>
 
         <activity
+            android:name=".ui.ShadeActivity"
+            android:label="遮罩Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SimplePagerActivity"
             android:label="简单的ViewPager"
-            android:name=".view.SimplePagerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.AutoPagerActivity"
+            android:label="自动滑动的ViewPager"
             android:screenOrientation="portrait" />
     </application>
 

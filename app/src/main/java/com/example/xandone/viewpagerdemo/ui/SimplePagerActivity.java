@@ -1,4 +1,4 @@
-package com.example.xandone.viewpagerdemo.view;
+package com.example.xandone.viewpagerdemo.ui;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
