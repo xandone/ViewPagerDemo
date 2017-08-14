@@ -102,7 +102,6 @@ public class AutoViewPager extends ViewPager {
      * 停止滑动
      */
     public void stop() {
-        Log.d("xandone", "----stop----");
         if (isCanSlide) {
             isCanSlide = false;
             removeCallbacks(apartRunnable);

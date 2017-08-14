@@ -24,5 +24,23 @@
         android:textColor="@color/black"
         android:textSize="18sp" />
 
+    <TextView
+        android:id="@+id/vp_loop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="无限滑动的ViewPager"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/vp_auto_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="动画滑动的ViewPager"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
 
 </LinearLayout>
